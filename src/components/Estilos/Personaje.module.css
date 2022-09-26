@@ -1,0 +1,25 @@
+.PUnico{
+    display:flex ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    max-width: 400px;
+    width: 80%;
+    margin: 25px;
+    height: auto;
+    height: 80%;
+}
+
+.PersonajeImagen{
+    border-radius: 15px;
+}
+
+.PersonajeDetalles{
+    font-size: 1.5rem;
+}
+
+.firstItem{
+    margin-top: 0;
+}

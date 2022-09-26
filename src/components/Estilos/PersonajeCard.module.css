@@ -1,0 +1,40 @@
+
+
+.PersonajesCard{
+    list-style: none; 
+    font-size: 1,5rem;
+    text-align: center;
+}
+
+.PersonajesCard:hover{
+    box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFF, 0 0 20px #FFF, 0 0 20px #FFF, 0 0 25px #FFF, 0 0 25px #FFF;
+
+}
+
+.PersonajeImage{
+    border-radius: 10px;
+    background-color: azure;
+}
+
+@media(max-width: 560px){
+    .PersonajeImage{
+        width: 90%;
+        height: auto;
+    }
+}
+
+.Buscar{
+    width: 30%;
+    height: 30px;
+    background: none;
+    color: white;
+    padding-top: 10px;
+    border: none;
+    outline: 0px;
+    border-bottom: 2px solid blue;
+    transition: width 0.4s ease-in-out;
+}
+
+.Buscar:focus{
+    width: 80%;
+}
