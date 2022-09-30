@@ -26,6 +26,8 @@ const Personaje = () => {
           <p>Estado: {personaje.status}</p>
           <br />
           <p>genero: {personaje.gender}</p>
+
+          
         </div>
       </div>
     </>
